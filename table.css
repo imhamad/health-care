@@ -1,0 +1,28 @@
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+/*    padding: 15px;*/
+
+}
+td{
+ border:1px solid #cecece;
+}
+tr:nth-child(even)
+{background-color: #f2f2f2}
+
+.custom_width td{
+ width:2% !important;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+     padding: 19px !important;
+     line-height: 1.42857143;
+     vertical-align: top;
+    border-top: 1px solid #ddd;
+}
